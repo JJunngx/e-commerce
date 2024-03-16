@@ -1,0 +1,38 @@
+.shop {
+  position: relative;
+  background-color: #e9ecef;
+  height: 200px;
+  font-style: italic;
+}
+.list a {
+  text-decoration: none;
+  color: black;
+}
+.list a:hover,
+.list a.active {
+  color: orange;
+}
+
+.input {
+  padding-left: 15px;
+  width: 300px;
+  height: 50px;
+  border: 2px solid #e9ecef;
+  font-size: 20px;
+}
+.input:focus {
+  outline: none;
+}
+.device {
+  height: 30px;
+}
+.button button {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  color: black;
+}
+.currentPage {
+  padding: 14.5px;
+  color: white;
+  background-color: black;
+}

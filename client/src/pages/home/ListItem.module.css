@@ -1,0 +1,6 @@
+.imgbright:hover {
+  opacity: 0.7;
+}
+.imgbright {
+  cursor: pointer;
+}

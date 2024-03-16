@@ -1,0 +1,27 @@
+.chatPopup {
+  position: fixed;
+  bottom: 0;
+  right: 100px;
+  width: 370px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.let {
+  background-color: #dee2e6;
+  color: #495057;
+  padding: 5px 10px;
+}
+
+.admin {
+  background-color: #e9ecef;
+  color: #868e96;
+}
+.message {
+  background-color: #e9ecef;
+  border-radius: 0 0 15px 15px;
+}
+.message button {
+  background-color: #e9ecef;
+}
+/* message */

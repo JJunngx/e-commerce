@@ -1,0 +1,28 @@
+.input {
+  padding: 6px 15px;
+  border: 2px solid #e9ecef;
+}
+
+.input:focus {
+  outline: none;
+}
+.button {
+  height: 40px;
+  padding: 0 25px;
+  background-color: black;
+  color: white;
+}
+.button:disabled {
+  opacity: 0.5; /* Ví dụ: giảm độ trong suốt */
+  cursor: not-allowed; /* Ví dụ: thay đổi con trỏ */
+}
+input:disabled {
+  opacity: 0.5; /* Ví dụ: giảm độ trong suốt */
+  cursor: not-allowed; /* Ví dụ: thay đổi con trỏ */
+}
+.desc {
+  height: 40px;
+  padding: 0 25px;
+  background-color: black;
+  color: white;
+}

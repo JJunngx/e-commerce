@@ -1,0 +1,29 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.modal {
+  position: fixed;
+  top: 20vh;
+  left: 20%;
+  right: 30%;
+  background-color: white;
+  z-index: 20;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  height: 600px;
+  padding: 15px;
+}
+
+.locationX {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: #000;
+}

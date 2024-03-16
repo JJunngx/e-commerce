@@ -1,0 +1,20 @@
+.bgGray {
+  background-color: #f1f3f5;
+  height: 200px;
+}
+.input {
+  height: 50px;
+  width: 400px;
+  border: 2px outset #f1f3f5;
+  padding: 0 15px;
+}
+.input:focus {
+  outline: none;
+}
+button {
+  height: 50px;
+  padding: 0 15px;
+  border: 0;
+  color: #fff;
+  background-color: #000;
+}

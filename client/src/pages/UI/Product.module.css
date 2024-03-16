@@ -1,0 +1,11 @@
+.img:hover {
+  opacity: 0.5;
+}
+.img {
+  cursor: pointer;
+}
+.button button {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  color: black;
+}
