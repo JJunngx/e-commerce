@@ -12,7 +12,7 @@ const multer = require("multer");
 const cloudinary = require("cloudinary").v2;
 
 dotenv.config();
-const MongoDBStore = require("connect-mongodb-session")(session);
+// const MongoDBStore = require("connect-mongodb-session")(session);
 
 const app = express();
 
@@ -22,18 +22,18 @@ cloudinary.config({
   api_secret: process.env.api_secret,
 });
 const MONGODB_URI = process.env.MONGODB_URL;
-const store = new MongoDBStore({
-  uri: MONGODB_URI,
-  collection: "sessions",
-});
-app.use(
-  session({
-    secret: "my secret",
-    resave: false,
-    saveUninitialized: false,
-    store: store,
-  })
-);
+// const store = new MongoDBStore({
+//   uri: MONGODB_URI,
+//   collection: "sessions",
+// });
+// app.use(
+//   session({
+//     secret: "my secret",
+//     resave: false,
+//     saveUninitialized: false,
+//     store: store,
+//   })
+// );
 
 app.use(cors());
 
