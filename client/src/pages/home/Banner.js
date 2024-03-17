@@ -15,7 +15,7 @@ const Banner = () => {
   return (
     <div className="position-relative fst-italic">
       <img
-        src={`https://asm3-njs-tongthe.onrender.com/images/banner1.jpg`}
+        src={`https://server-asm3-ax3r.onrender.com/images/banner1.jpg`}
         alt="banner1"
         className="w-100 "
       />
