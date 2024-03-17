@@ -7,11 +7,17 @@ const useHttp = () => {
         Authorization: `Bearer ${token}`,
       };
       if (method === "get") {
-        res = await axios(`http://localhost:5000${link}`, { headers });
-      } else {
-        res = await axios[method](`http://localhost:5000${link}`, data, {
+        res = await axios(`https://asm3-njs-23rd.onrender.com${link}`, {
           headers,
         });
+      } else {
+        res = await axios[method](
+          `https://asm3-njs-23rd.onrender.com${link}`,
+          data,
+          {
+            headers,
+          }
+        );
       }
       if (getData) {
         getData(res.data);

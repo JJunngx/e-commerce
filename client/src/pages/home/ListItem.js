@@ -31,23 +31,26 @@ const ListItem = () => {
       <h2 className="text-uppercase fst-italic mb-4">browse our catecories</h2>
 
       {renderImg(
-        "http://localhost:5000/images/product_1.png",
+        "https://server-asm3-ax3r.onrender.com/images/product_1.png",
         "product_1",
         "iphone"
       )}
-      {renderImg("http://localhost:5000/images/product_2.png", "product_2")}
       {renderImg(
-        "http://localhost:5000/images/product_3.png",
+        "https://server-asm3-ax3r.onrender.com/images/product_2.png",
+        "product_2"
+      )}
+      {renderImg(
+        "https://server-asm3-ax3r.onrender.com/images/product_3.png",
         "product_3",
         "ipad"
       )}
       {renderImg(
-        "http://localhost:5000/images/product_4.png",
+        "https://server-asm3-ax3r.onrender.com/images/product_4.png",
         "product_4",
         "watch"
       )}
       {renderImg(
-        "http://localhost:5000/images/product_5.png",
+        "https://server-asm3-ax3r.onrender.com/images/product_5.png",
         "product_5",
         "airpod"
       )}

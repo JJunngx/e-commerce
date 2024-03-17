@@ -11,13 +11,20 @@ const useHttp = () => {
       }
 
       if (method === "get" || method === "delete") {
-        res = await axios[method](`http://localhost:5000${link}`, {
-          headers,
-        });
+        res = await axios[method](
+          `https://server-asm3-ax3r.onrender.com${link}`,
+          {
+            headers,
+          }
+        );
       } else {
-        res = await axios[method](`http://localhost:5000${link}`, data, {
-          headers,
-        });
+        res = await axios[method](
+          `https://server-asm3-ax3r.onrender.com${link}`,
+          data,
+          {
+            headers,
+          }
+        );
       }
 
       if (getData) {
