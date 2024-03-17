@@ -7,12 +7,12 @@ const useHttp = () => {
         Authorization: `Bearer ${token}`,
       };
       if (method === "get") {
-        res = await axios(`https://asm3-njs-23rd.onrender.com${link}`, {
+        res = await axios(`https://asm3-njs-tongthe.onrender.com${link}`, {
           headers,
         });
       } else {
         res = await axios[method](
-          `https://asm3-njs-23rd.onrender.com${link}`,
+          `https://asm3-njs-tongthe.onrender.com${link}`,
           data,
           {
             headers,

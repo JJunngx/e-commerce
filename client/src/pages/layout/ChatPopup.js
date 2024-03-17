@@ -16,7 +16,7 @@ const ChatPopup = () => {
   const messageRef = useRef(null);
   const [message, setMessage] = useState([]);
   const { resResults } = useHttp();
-  const socket = io("https://server-asm3-ax3r.onrender.com");
+  const socket = io("https://asm3-njs-tongthe.onrender.com");
   const user = getFromStorage("isLogged");
   const decodedToken = jwtDecode(user.token);
 
