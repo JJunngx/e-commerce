@@ -15,7 +15,7 @@ const Chat = () => {
   const adminUser = getFromStorage("adminLogged");
   const decodedToken = jwtDecode(adminUser.token);
 
-  const socket = io("https://server-asm3-ax3r.onrender.com");
+  const socket = io("https://asm3-njs-t37n.onrender.com");
 
   const resResultsRef = useRef(resResults);
   useEffect(() => {

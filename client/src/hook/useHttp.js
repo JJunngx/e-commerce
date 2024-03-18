@@ -11,15 +11,12 @@ const useHttp = () => {
       }
 
       if (method === "get" || method === "delete") {
-        res = await axios[method](
-          `https://server-asm3-ax3r.onrender.com${link}`,
-          {
-            headers,
-          }
-        );
+        res = await axios[method](`https://asm3-njs-t37n.onrender.com${link}`, {
+          headers,
+        });
       } else {
         res = await axios[method](
-          `https://server-asm3-ax3r.onrender.com${link}`,
+          `https://asm3-njs-t37n.onrender.com${link}`,
           data,
           {
             headers,
