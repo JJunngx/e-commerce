@@ -32,6 +32,7 @@ exports.login = async (req, res, next) => {
       { userId: user._id, role: user.role, email: user.email },
       process.env.JWT_SECRET_client
     );
+    res.cookie("token", token, { httpOnly: true, secure: true });
     req.session.userId = user._id;
     return res.json({ token });
   } catch (error) {
