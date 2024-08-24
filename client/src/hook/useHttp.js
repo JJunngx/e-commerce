@@ -39,3 +39,4 @@ const useHttp = () => {
   };
 };
 export default useHttp;
+export const api_url = "http://localhost:5000";

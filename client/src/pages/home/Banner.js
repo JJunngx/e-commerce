@@ -10,6 +10,7 @@ const StyledDive = styled.div`
   transform: translate(0, -50%);
   width: 400px;
 `;
+
 const Banner = () => {
   const navigate = useNavigate();
   return (
